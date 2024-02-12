@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #023E8A;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+p {
+  font-family: protest riot;
+  color :#CAF0F8
+}
+
+.p5container {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+.overlay {
+  position: absolute;
+  z-index: 3 !important;
+}
